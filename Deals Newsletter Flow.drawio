@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-18T18:11:52.321Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="dFVKKNUU5Ivd9jcVW1CM" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-18T19:58:04.398Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="zcz0BfG7_Lb3CJ-5Lf1R" version="21.7.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2421" dy="1291" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,9 +13,6 @@
         <mxCell id="c_kaoyGQGETnq4ee6fAb-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.22;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="c_kaoyGQGETnq4ee6fAb-1" target="c_kaoyGQGETnq4ee6fAb-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="c_kaoyGQGETnq4ee6fAb-1" value="&lt;div&gt;Verified Identity&lt;/div&gt;&lt;div&gt;saveylauncher.com&lt;br&gt;&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ses;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="374" y="320" width="79.5" height="93" as="geometry" />
-        </mxCell>
         <mxCell id="c_kaoyGQGETnq4ee6fAb-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.58;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="c_kaoyGQGETnq4ee6fAb-2" target="c_kaoyGQGETnq4ee6fAb-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -25,15 +22,22 @@
         <mxCell id="c_kaoyGQGETnq4ee6fAb-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="c_kaoyGQGETnq4ee6fAb-3" target="c_kaoyGQGETnq4ee6fAb-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="c_kaoyGQGETnq4ee6fAb-3" value="&lt;div&gt;Receipt rule created in SES&lt;/div&gt;&lt;div&gt;&amp;nbsp;for signup@saveylauncher.com&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.rule;fillColor=#5294CF;gradientColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="389.25" y="500" width="49.5" height="99" as="geometry" />
+        <mxCell id="c_kaoyGQGETnq4ee6fAb-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="c_kaoyGQGETnq4ee6fAb-3" target="c_kaoyGQGETnq4ee6fAb-19">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <UserObject label="&lt;div&gt;&lt;span style=&quot;background-color: rgb(212, 212, 212);&quot;&gt;Receipt rule created in SES&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(212, 212, 212);&quot;&gt;&amp;nbsp;for signup@saveylauncher.com&lt;/span&gt;&lt;/div&gt;" link="https://us-east-1.console.aws.amazon.com/ses/home#/email-receiving/Newsletters/Forward_newsletter_SNS" id="c_kaoyGQGETnq4ee6fAb-3">
+          <mxCell style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.rule;fillColor=#5294CF;gradientColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+            <mxGeometry x="389.25" y="500" width="49.5" height="99" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="c_kaoyGQGETnq4ee6fAb-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="c_kaoyGQGETnq4ee6fAb-6" target="c_kaoyGQGETnq4ee6fAb-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="c_kaoyGQGETnq4ee6fAb-6" value="deals-newsletters" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.bucket;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="376.5" y="700" width="75" height="78" as="geometry" />
-        </mxCell>
+        <UserObject label="deals-newsletters" link="https://s3.console.aws.amazon.com/s3/buckets/deals-newsletters?region=us-east-1" id="c_kaoyGQGETnq4ee6fAb-6">
+          <mxCell style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.bucket;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+            <mxGeometry x="376.5" y="700" width="75" height="78" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="c_kaoyGQGETnq4ee6fAb-8" value="Team member signs up" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="399" y="30" width="30" height="60" as="geometry" />
         </mxCell>
@@ -55,21 +59,39 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="c_kaoyGQGETnq4ee6fAb-10" value="Persist Newsletters" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#5294CF;gradientColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="c_kaoyGQGETnq4ee6fAb-10" value="&lt;span style=&quot;background-color: rgb(212, 212, 212);&quot;&gt;Persist Newsletters&lt;/span&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#5294CF;gradientColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="670" y="840" width="60" height="63" as="geometry" />
         </mxCell>
-        <mxCell id="c_kaoyGQGETnq4ee6fAb-11" value="Deals DB" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server_Group.svg;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="680" y="965" width="60" height="68" as="geometry" />
-        </mxCell>
-        <mxCell id="c_kaoyGQGETnq4ee6fAb-12" value="CouponAPI" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];verticalLabelPosition=bottom;align=center;verticalAlign=top;shape=mxgraph.kubernetes.icon;prIcon=api" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="359" y="990" width="110" height="168" as="geometry" />
-        </mxCell>
+        <UserObject label="&lt;span style=&quot;background-color: rgb(212, 212, 212);&quot;&gt;Deals DB&lt;/span&gt;" link="https://us-east-1.console.aws.amazon.com/rds/home?region=us-east-1#database:id=deals-database;is-cluster=true" id="c_kaoyGQGETnq4ee6fAb-11">
+          <mxCell style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server_Group.svg;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+            <mxGeometry x="680" y="965" width="60" height="68" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="CouponAPI" link="https://git.rm-apps-gitlab.com/Apps/Mobile.Apps.CouponAPI" id="c_kaoyGQGETnq4ee6fAb-12">
+          <mxCell style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];verticalLabelPosition=bottom;align=center;verticalAlign=top;shape=mxgraph.kubernetes.icon;prIcon=api" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+            <mxGeometry x="359" y="990" width="110" height="168" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="c_kaoyGQGETnq4ee6fAb-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="c_kaoyGQGETnq4ee6fAb-13" target="c_kaoyGQGETnq4ee6fAb-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="c_kaoyGQGETnq4ee6fAb-13" value="deals-newsletters-parsed" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.bucket;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="376.5" y="832.5" width="75" height="78" as="geometry" />
         </mxCell>
+        <mxCell id="c_kaoyGQGETnq4ee6fAb-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="c_kaoyGQGETnq4ee6fAb-19" target="c_kaoyGQGETnq4ee6fAb-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c_kaoyGQGETnq4ee6fAb-19" value="Amazon SNS" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.sns;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="410" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="c_kaoyGQGETnq4ee6fAb-20" value="&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;awsui_wrapper_1wepg_12w0t_110 awsui_radio_1mabk_5ptuj_107&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;table align=&quot;center&quot; aria-labelledby=&quot;heading40-1697658438340-6202&quot; aria-rowcount=&quot;8&quot; role=&quot;table&quot; class=&quot;awsui_table_wih1l_51dxw_144 awsui_table-layout-fixed_wih1l_51dxw_150&quot;&gt;&lt;tbody&gt;&lt;tr aria-rowindex=&quot;6&quot; data-selection-item=&quot;item&quot; class=&quot;awsui_row_wih1l_51dxw_301&quot;&gt;&lt;td class=&quot;awsui_selection-control_wih1l_51dxw_221 awsui_body-cell_c6tup_t94xq_93 awsui_has-selection_c6tup_t94xq_139&quot;&gt;&lt;label title=&quot;Newsletter&quot; aria-label=&quot;Newsletter&quot; class=&quot;awsui_label_1s55x_1ox2w_97 awsui_root_1s55x_1ox2w_93&quot; for=&quot;73-1697658438471-762&quot;&gt;&lt;span class=&quot;awsui_wrapper_1wepg_12w0t_110 awsui_radio_1mabk_5ptuj_107&quot;&gt;&lt;span class=&quot;awsui_label-wrapper_1wepg_12w0t_116&quot;&gt;&lt;span class=&quot;awsui_control_1wepg_12w0t_151 awsui_radio-control_1mabk_5ptuj_119&quot;&gt;&lt;/span&gt;&lt;span class=&quot;awsui_content_1wepg_12w0t_93 awsui_empty-content_1wepg_12w0t_127&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/label&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;awsui_stud_1s55x_1ox2w_111&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;/td&gt;&lt;td class=&quot;awsui_body-cell_c6tup_t94xq_93&quot;&gt;&lt;a href=&quot;https://us-east-1.console.aws.amazon.com/sns/v3/home?region=us-east-1#/topic/arn:aws:sns:us-east-1:813689014362:Newsletter&quot; data-analytics-funnel-value=&quot;link75-1697658438472-701&quot; aria-labelledby=&quot;&quot; class=&quot;awsui_link_4c84z_1c97a_93 awsui_variant-primary_4c84z_1c97a_177 awsui_font-size-body-m_4c84z_1c97a_416&quot; id=&quot;link-self76-1697658438472-8402&quot;&gt;Newsletter&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;Topic for e-mail delivery receipts&lt;br&gt;&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.topic;fillColor=#5294CF;gradientColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="60" y="360" width="49.5" height="66" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div&gt;&lt;span style=&quot;background-color: rgb(212, 212, 212);&quot;&gt;Amazon Simple Email Service&lt;br&gt;Verified Identity&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(212, 212, 212);&quot;&gt;saveylauncher.com&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" link="https://us-east-1.console.aws.amazon.com/ses/home#/verified-identities/saveylauncher.com" id="c_kaoyGQGETnq4ee6fAb-1">
+          <mxCell style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ses;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+            <mxGeometry x="374" y="320" width="79.5" height="93" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
